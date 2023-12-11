@@ -101,7 +101,7 @@ function ensureDirectoryExistence(dirpath:string){
         resolve()
 }} )}
 
-app.post('/api/upload-video', async (req, res) => {
+app.post('/', async (req, res) => {
   try {
       let data;
       let files;
