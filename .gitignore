@@ -2,3 +2,5 @@ node_modules
 dist
 yarn-error.log
 init-ts-proyect.sh
+*.json
+*.mp4
